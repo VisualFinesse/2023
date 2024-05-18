@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Cart</title>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <button onclick="cartQuantity = cartQuantity + addToCart">
+      Add to Cart
+    </button>
+    <button>Reset Cart</button>
+    <button>+2</button>
+    <button>+3</button>
+    <p>Cart:<span `${cartQuantity}></span></p>
+    <script>
+      let cartQuantity = 0;
+      let addToCart = 1;
+      cartQuantity += addToCart;
+      let resetCart = cartQuantity * 0;
+
+    </script>
+  </body>
